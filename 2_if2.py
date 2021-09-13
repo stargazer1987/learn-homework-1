@@ -20,7 +20,7 @@ def compare_strings(string1, string2):
     return 0
   elif string1 == string2:
     return 1
-  elif string2 == 'learn':
+  elif string2 == 'learn': 
     return 3  
   elif len(string1) > len(string2):
     return 2
@@ -47,5 +47,7 @@ def main():
     print(seventh)
     eighth = compare_strings('learn', 'hey')
     print(eighth)
+    ninegth = compare_strings('learn', 'learn')
+    print(ninegth)
 if __name__ == "__main__":
     main()
